@@ -9,6 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+    <div class="popupBackground"></div>
     <div class="mobileMenu">
         <div onclick="closeMenu()" class="close"><img src="<?php $link = get_template_directory_uri(); echo($link."/assets/images/icons/x.png")?>"></div>
         <ul>

@@ -91,7 +91,8 @@
         </div>
         <div id="money">
             <div class="popup">
-                <form action="#">
+                <?php echo do_shortcode('[contact-form-7 id="25" title="Контактная форма 1"]'); ?>
+                <!-- <form action="#">
                     <h1>ФИО</h1>
                     <input type="text" placeholder="Пупкин Василий Кожуетович">
                     <h1>Дата рождения</h1>
@@ -105,7 +106,7 @@
                     <h1>Укажите Ваш аккаунт в Telegram</h1>
                     <input type="text" placeholder="@ViktorDudka">
                     <button type="submit">ОТПРАВИТЬ</button>
-                </form>
+                </form> -->
                 <div onclick="closePopup()" class="close"><img src="<?php $link = get_template_directory_uri(); echo($link."/assets/images/icons/x.png")?>"></div>
             </div>
             <div class="moneyBG"></div>
